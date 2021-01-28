@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: "jdbc:oracle:thin:@localhost:1521:orcl"
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: TESTDB
+    password: 14292
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+
+
+server:
+  port: 9090
