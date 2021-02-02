@@ -1,4 +1,4 @@
-package com.benz.junit.api.service;
+package com.benz.junit.api.service.impl;
 
 import com.benz.junit.api.dao.UserDAO;
 import com.benz.junit.api.entity.User;
